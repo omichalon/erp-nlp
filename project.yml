@@ -1,0 +1,219 @@
+title: "ERP categorization (Text Classification)"
+description: "This project uses spaCy to train a text classifier on the [osterhout dataset] with options for a pipeline with and without transformer weights. To use the BERT-based config, change the `config` variable in the `project.yml`."
+# Variables can be referenced across the project.yml using ${vars.var_name}
+vars:
+  name: "erp_textcat_ost"
+  version: "0.0.1"
+  # Choose your GPU here
+  gpu_id: -1
+  # cnn or bert Change this to "bert" to use the transformer-based model
+  config: "cnn"
+  config_sem: "bert_sem"
+  config_syn: "bert_syn"
+  ost_corpus: "assets/osterhout.corpus"
+  ost_verbs: "assets/osterhout.verbs"
+  kim_corpus: "assets/kim.corpus"
+  kim_verbs: "assets/kim.verbs"
+  train_file: "corpus/train.spacy"
+  dev_file: "corpus/dev.spacy"
+  test_file: "corpus/test.spacy"
+  syn_train_file: "corpus/syn_train.spacy"
+  syn_dev_file: "corpus/syn_dev.spacy"
+  syn_test_file: "corpus/syn_test.spacy"
+  sem_train_file: "corpus/sem_train.spacy"
+  sem_dev_file: "corpus/sem_dev.spacy"
+  sem_test_file: "corpus/sem_test.spacy"
+  trained_model: "training/model-best"
+  vectors: "assets/en_fasttext_vectors"
+
+
+# These are the directories that the project needs. The project CLI will make
+# sure that they always exist.
+directories: ["assets", "training", "configs", "metrics", "packages", "scripts", "corpus"]
+
+# Assets that should be downloaded or available in the directory.
+assets:
+  - dest: ${vars.ost_corpus}
+    description: "The osterhout 1999 annotated corpus"
+  - dest: ${vars.ost_verbs}
+    description: "The verbs that are considered triggers in osterhout 1999"
+  - dest: ${vars.kim_corpus}
+    description: "The kim & osterhout 2005 annotated corpus"
+  - dest: ${vars.kim_verbs}
+    description: "The verbs that are considered triggers in kim & osterhout 2005"
+    # Uncomment this asset if you want to download the vectors.
+  - dest: "assets/vectors.zip"
+    url: "https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M.vec.zip"
+
+# Workflows are sequences of commands (see below) executed in order. You can
+# run them via "spacy project run [workflow]". If a commands's inputs/outputs
+# haven't changed, it won't be re-run.
+workflows:
+  all_ost:
+    - preprocess_ost
+    - train
+    - evaluate
+    - package
+  all_ost_ss:
+    - preprocess_ost
+    - train_syn
+    - train_sem
+    - evaluate_ss_ost
+  all_kim:
+    - preprocess_kim
+    - train
+    - evaluate
+    - package
+  all_kim_ss:
+    - preprocess_kim
+    - train_syn
+    - train_sem
+    - evaluate_ss_kim
+
+# Project commands, specified in a style similar to CI config files (e.g. Azure
+# pipelines). The name is the command name that lets you trigger the command
+# via "spacy project run [command] [path]". The help message is optional and
+# shown when executing "spacy project run [optional command] [path] --help".
+commands:
+  - name: init-vectors
+    help: Download vectors and convert to model
+    script:
+      - "python -m spacy init vectors en assets/vectors.zip ${vars.vectors}"
+    deps:
+      - "assets/vectors.zip"
+    outputs_no_cache:
+      - ${vars.vectors}
+
+  - name: preprocess_ost
+    help: "Convert the corpus to spaCy's format and do the train/test/dev separation"
+    script:
+      - "python scripts/convert_corpus_ost.py ${vars.ost_corpus} ${vars.train_file} ${vars.dev_file} ${vars.test_file} ${vars.sem_train_file} ${vars.sem_dev_file} ${vars.sem_test_file} ${vars.syn_train_file} ${vars.syn_dev_file} ${vars.syn_test_file}"
+    deps: 
+      - ${vars.ost_corpus}
+      - ${vars.ost_verbs}
+    outputs_no_cache:
+      - ${vars.train_file}
+      - ${vars.dev_file}
+      - ${vars.test_file}
+      - ${vars.syn_train_file}
+      - ${vars.syn_dev_file}
+      - ${vars.syn_test_file}
+      - ${vars.sem_train_file}
+      - ${vars.sem_dev_file}
+      - ${vars.sem_test_file}
+
+  - name: preprocess_kim
+    help: "Convert the corpus to spaCy's format and do the train/test/dev separation"
+    script:
+      - "python scripts/convert_corpus_kim.py ${vars.kim_corpus} ${vars.train_file} ${vars.dev_file} ${vars.test_file} ${vars.sem_train_file} ${vars.sem_dev_file} ${vars.sem_test_file} ${vars.syn_train_file} ${vars.syn_dev_file} ${vars.syn_test_file}"
+    deps:
+      - ${vars.kim_corpus}
+      - ${vars.kim_verbs}
+    outputs_no_cache:
+      - ${vars.train_file}
+      - ${vars.dev_file}
+      - ${vars.test_file}
+      - ${vars.syn_train_file}
+      - ${vars.syn_dev_file}
+      - ${vars.syn_test_file}
+      - ${vars.sem_train_file}
+      - ${vars.sem_dev_file}
+      - ${vars.sem_test_file}
+
+  - name: train
+    help: "Train a spaCy pipeline using the specified corpus and config"
+    script:
+      - "mkdir -p training/${vars.config}"
+      - "python -m spacy train ./configs/${vars.config}.cfg -o training/${vars.config} --gpu-id ${vars.gpu_id} "
+      # --paths.vectors ${vars.vectors} --components.textcat.model.tok2vec.embed.include_static_vectors true"
+    deps:
+      - "${vars.train_file}"
+      - "${vars.dev_file}"
+      - "configs/${vars.config}.cfg"
+    outputs:
+      - "training/${vars.config}/model-best"
+
+  - name: train_syn
+    help: "Train a spaCy pipeline using the specified corpus and config"
+    script:
+      - "mkdir -p training/${vars.config_syn}"
+      - "python -m spacy train ./configs/${vars.config_syn}.cfg -o training/${vars.config_syn} --gpu-id ${vars.gpu_id} "
+    deps:
+      - "${vars.syn_train_file}"
+      - "${vars.syn_dev_file}"
+      - "configs/${vars.config_syn}.cfg"
+    outputs:
+      - "training/${vars.config_syn}/model-best"
+
+  - name: train_sem
+    help: "Train a spaCy pipeline using the specified corpus and config"
+    script:
+      - "mkdir -p training/${vars.config_sem}"
+      - "python -m spacy train ./configs/${vars.config_sem}.cfg -o training/${vars.config_sem} --gpu-id ${vars.gpu_id} "
+    deps:
+      - "${vars.sem_train_file}"
+      - "${vars.sem_dev_file}"
+      - "configs/${vars.config_sem}.cfg"
+    outputs:
+      - "training/${vars.config_sem}/model-best"
+
+  - name: evaluate
+    help: "Evaluate on the test data and save the metrics"
+    script:
+      - "python -m spacy evaluate ./training/${vars.config}/model-best ./corpus/test.spacy --output ./metrics/${vars.config}.json"
+    deps:
+      - "training/${vars.config}/model-best"
+      - "corpus/test.spacy"
+    outputs:
+      - "metrics/${vars.config}.json"
+
+  - name: evaluate_ss_ost
+    help: "Evaluate on the test data and save the metrics"
+    script:
+      - "python -m spacy evaluate ./training/${vars.config_syn}/model-best ./${vars.syn_test_file} --output ./metrics/${vars.config_syn}.json"
+      - "python -m spacy evaluate ./training/${vars.config_sem}/model-best ./${vars.sem_test_file} --output ./metrics/${vars.config_sem}.json"
+      - "python ./scripts/eval_ss_ost.py ./training/${vars.config_syn}/model-best ./training/${vars.config_sem}/model-best ./{vars.test_file}"
+    deps:
+      - "training/${vars.config_sem}/model-best"
+      - "training/${vars.config_syn}/model-best"
+      - "${vars.sem_test_file}"
+      - "${vars.syn_test_file}"
+      - "${vars.test_file}"
+    outputs:
+      - "metrics/${vars.config_sem}.json"
+      - "metrics/${vars.config_syn}.json"
+      - "metrics/SS.json"
+
+  - name: evaluate_ss_kim
+    help: "Evaluate on the test data and save the metrics"
+    script:
+      - "python -m spacy evaluate ./training/${vars.config_syn}/model-best ./${vars.syn_test_file} --output ./metrics/${vars.config_syn}.json"
+      - "python -m spacy evaluate ./training/${vars.config_sem}/model-best ./${vars.sem_test_file} --output ./metrics/${vars.config_sem}.json"
+      - "python ./scripts/eval_ss_kim.py ./training/${vars.config_sem}/model-best ./training/${vars.config_syn}/model-best ./${vars.syn_test_file} ./${vars.sem_test_file} metrics/kim_ss.json"
+    deps:
+      - "training/${vars.config_sem}/model-best"
+      - "training/${vars.config_syn}/model-best"
+      - "${vars.sem_test_file}"
+      - "${vars.syn_test_file}"
+      - "${vars.test_file}"
+    outputs:
+      - "metrics/${vars.config_sem}.json"
+      - "metrics/${vars.config_syn}.json"
+      - "metrics/kim_ss.json"
+
+  - name: package
+    help: "Package the trained model so it can be installed"
+    script:
+      - "python -m spacy package ./training/${vars.config}/model-best packages/ --name ${vars.name} --force --version ${vars.version}"
+    deps:
+      - "training/${vars.config}/model-best"
+    outputs_no_cache:
+      - "packages/${vars.name}-${vars.version}/dist/${vars.name}-${vars.version}.tar.gz"
+
+  - name: visualize
+    help: Visualize the model's output interactively using Streamlit
+    script:
+      - "streamlit run scripts/visualize_model.py training/${vars.config}/model-best \"I’m sorry to hear that friend :(\""
+    deps:
+      - "scripts/visualize_model.py"
+      - "training/${vars.config}/model-best"
