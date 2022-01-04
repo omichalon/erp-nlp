@@ -6,10 +6,9 @@ vars:
   version: "0.0.1"
   # Choose your GPU here
   gpu_id: -1
-  # cnn or bert Change this to "bert" to use the transformer-based model
-  config: "cnn"
-  config_sem: "bert_sem"
-  config_syn: "bert_syn"
+  config: "cnn" # or bert
+  config_sem: "cnn_sem" # or bert_sem
+  config_syn: "cnn_syn" # or bert_syn
   ost_corpus: "assets/osterhout.corpus"
   ost_verbs: "assets/osterhout.verbs"
   kim_corpus: "assets/kim.corpus"
@@ -124,8 +123,10 @@ commands:
     help: "Train a spaCy pipeline using the specified corpus and config"
     script:
       - "mkdir -p training/${vars.config}"
-      - "python -m spacy train ./configs/${vars.config}.cfg -o training/${vars.config} --gpu-id ${vars.gpu_id} "
-      # --paths.vectors ${vars.vectors} --components.textcat.model.tok2vec.embed.include_static_vectors true"
+      # uncomment if you want to use fasttext embeddings
+      #- "python -m spacy train ./configs/${vars.config}.cfg -o training/${vars.config} --gpu-id ${vars.gpu_id} --paths.vectors ${vars.vectors} --components.textcat.model.tok2vec.embed.include_static_vectors true"
+      # comment if you want to use fasttext embeddings
+      - "python -m spacy train ./configs/${vars.config}.cfg -o training/${vars.config} --gpu-id ${vars.gpu_id}
     deps:
       - "${vars.train_file}"
       - "${vars.dev_file}"
