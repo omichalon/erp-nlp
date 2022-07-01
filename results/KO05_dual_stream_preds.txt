@@ -1,0 +1,233 @@
+KO05_dual_stream_preds
+
+0 
+ syn  A faint light was concealing their identity. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998654127120972, 'Sy': 0.0001448119874112308} 
+ sem  A faint light was concealing their identity. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9982782602310181, 'NA': 0.0014027701690793037} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+1 
+ syn  A genetic mutation was discovering the scientists. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0002978192933369428, 'Sy': 0.9999594688415527} 
+ sem  A genetic mutation was discovering the scientists. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.000125149788800627, 'NA': 0.999975323677063} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+2 
+ syn  A new medication had been prescribing the physician. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.000271642638836056, 'Sy': 0.9999749660491943} 
+ sem  A new medication had been prescribing the physician. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00014517891395371407, 'NA': 0.9999668598175049} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+3 
+ syn  A tiny spy camera was concealing by the agent inside a flowerpot. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0008656324353069067, 'Sy': 0.999494194984436} 
+ sem  A tiny spy camera was concealing by the agent inside a flowerpot. {'Se': 0, 'NA': 1} pred_sem: {'Se': 7.41406183806248e-05, 'NA': 0.9999790191650391} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+4 
+ syn  A wet snowball had been tossed in anger. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999449253082275, 'Sy': 3.057661160710268e-05} 
+ sem  A wet snowball had been tossed in anger. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00035080473753623664, 'NA': 0.9999014139175415} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+5 
+ syn  An important lesson had been learning in space. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0003231242881156504, 'Sy': 0.9999663829803467} 
+ sem  An important lesson had been learning in space. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0001444586378056556, 'NA': 0.9999756813049316} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+6 
+ syn  An urgent message had been measuring her heart rate. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999088048934937, 'Sy': 6.964213389437646e-05} 
+ sem  An urgent message had been measuring her heart rate. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9996883869171143, 'NA': 0.00020180341380182654} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+7 
+ syn  Billy's unruly hair was combed by his mother to one side. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998390674591064, 'Sy': 8.622293535154313e-05} 
+ sem  Billy's unruly hair was combed by his mother to one side. {'Se': 0, 'NA': 1} pred_sem: {'Se': 6.63681494188495e-05, 'NA': 0.9999685287475586} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+8 *
+ syn  Carrie's morning meeting was canceling as expected. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00342397578060627, 'Sy': 0.9977343082427979} 
+ sem  Carrie's morning meeting was canceling as expected. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.9810827970504761, 'NA': 0.00560753932222724} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+9 
+ syn  Hathaway's gigantic fortune had been inherited by his daughters. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998562335968018, 'Sy': 0.00012220896314829588} 
+ sem  Hathaway's gigantic fortune had been inherited by his daughters. {'Se': 0, 'NA': 1} pred_sem: {'Se': 5.4157095291884616e-05, 'NA': 0.999977707862854} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+10 
+ syn  Larry's note had been scribbling his wife. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00020293104171287268, 'Sy': 0.999969482421875} 
+ sem  Larry's note had been scribbling his wife. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00019637092191260308, 'NA': 0.999929666519165} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+11 
+ syn  Ludwig von Beethoven was composing symphonies as a teenager. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997740387916565, 'Sy': 0.00029804682708345354} 
+ sem  Ludwig von Beethoven was composing symphonies as a teenager. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00035294631379656494, 'NA': 0.9999595880508423} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+12 
+ syn  Mark's wrinkly shirts were ironed by his mother. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999209642410278, 'Sy': 5.36525112693198e-05} 
+ sem  Mark's wrinkly shirts were ironed by his mother. {'Se': 0, 'NA': 1} pred_sem: {'Se': 7.662094139959663e-05, 'NA': 0.9999610185623169} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+13 
+ syn  Martin's tonsils had been removed at the hospital. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999134540557861, 'Sy': 7.552044553449377e-05} 
+ sem  Martin's tonsils had been removed at the hospital. {'Se': 0, 'NA': 1} pred_sem: {'Se': 8.670510578667745e-05, 'NA': 0.9999833106994629} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+14 
+ syn  Poisonous fumes had been forging very well. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.018118076026439667, 'Sy': 0.9900972843170166} 
+ sem  Poisonous fumes had been forging very well. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997578263282776, 'NA': 0.00017208716599270701} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+15 
+ syn  Several important topics were slicing with love. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9995893836021423, 'Sy': 0.0005243183695711195} 
+ sem  Several important topics were slicing with love. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997926354408264, 'NA': 0.00017806216783355922} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+16 
+ syn  Several spelling errors were reaching too late. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.0004474117886275053, 'Sy': 0.9999370574951172} 
+ sem  Several spelling errors were reaching too late. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9996442794799805, 'NA': 0.00023757683811709285} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+17 
+ syn  Stormy weather had been forecasted by the weatherman. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998807907104492, 'Sy': 0.00010170682071475312} 
+ sem  Stormy weather had been forecasted by the weatherman. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00013038207544013858, 'NA': 0.9999513626098633} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+18 
+ syn  Stormy weather had been forecasting by the weatherman. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00026744251954369247, 'Sy': 0.9999626874923706} 
+ sem  Stormy weather had been forecasting by the weatherman. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0001862493809312582, 'NA': 0.9999346733093262} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+19 
+ syn  Stormy weather had been packing for the trip. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996260404586792, 'Sy': 0.00012209526903461665} 
+ sem  Stormy weather had been packing for the trip. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9996352195739746, 'NA': 0.00026042095851153135} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+20 
+ syn  The FBI agents had been investigating the homicide case for weeks. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999042749404907, 'Sy': 0.000135549227707088} 
+ sem  The FBI agents had been investigating the homicide case for weeks. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00011281813203822821, 'NA': 0.9999861717224121} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+21 
+ syn  The Queen's 80th birthday was celebrating expensively. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00023794881417416036, 'Sy': 0.9999700784683228} 
+ sem  The Queen's 80th birthday was celebrating expensively. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00018033791275229305, 'NA': 0.9999619722366333} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+22 
+ syn  The attendant had been pressing the buttons. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997833371162415, 'Sy': 0.0001670639030635357} 
+ sem  The attendant had been pressing the buttons. {'Se': 0, 'NA': 1} pred_sem: {'Se': 7.878430187702179e-05, 'NA': 0.9999737739562988} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+23 
+ syn  The baseball players had been tossing the ball around the infield. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999192953109741, 'Sy': 4.8706220695748925e-05} 
+ sem  The baseball players had been tossing the ball around the infield. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00011884733976330608, 'NA': 0.9999774694442749} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+24 
+ syn  The bathroom floor had been mopped in the past. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.999946117401123, 'Sy': 1.5088544387253933e-05} 
+ sem  The bathroom floor had been mopped in the past. {'Se': 0, 'NA': 1} pred_sem: {'Se': 6.739215314155445e-05, 'NA': 0.9999637603759766} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+25 
+ syn  The board of directors had been approving too many expensive projects. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996970891952515, 'Sy': 0.00031608532299287617} 
+ sem  The board of directors had been approving too many expensive projects. {'Se': 0, 'NA': 1} pred_sem: {'Se': 7.968462887220085e-05, 'NA': 0.9999783039093018} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+26 
+ syn  The bubblegum had been canceling as expected. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9995079040527344, 'Sy': 0.0006165780359879136} 
+ sem  The bubblegum had been canceling as expected. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9993705153465271, 'NA': 0.00033045062446035445} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+27 
+ syn  The bubblegum had been chewed by the boy. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999616146087646, 'Sy': 2.245975520054344e-05} 
+ sem  The bubblegum had been chewed by the boy. {'Se': 0, 'NA': 1} pred_sem: {'Se': 9.189358388539404e-05, 'NA': 0.9999547004699707} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+28 
+ syn  The cautious scuba divers were exploring the underwater cave. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998846054077148, 'Sy': 5.100050111650489e-05} 
+ sem  The cautious scuba divers were exploring the underwater cave. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00010947444388875738, 'NA': 0.9999674558639526} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+29 
+ syn  The cheap products had been manufacturing a Belgian firm. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0002437486982671544, 'Sy': 0.9999688863754272} 
+ sem  The cheap products had been manufacturing a Belgian firm. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00010055230814032257, 'NA': 0.9999600648880005} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+30 
+ syn  The cheap products had been sketching again. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998866319656372, 'Sy': 0.00011293309944448993} 
+ sem  The cheap products had been sketching again. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9995083808898926, 'NA': 0.0003436854458414018} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+31 
+ syn  The chef's assistants were slicing the mushrooms for a pie. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999598264694214, 'Sy': 2.8831396775785834e-05} 
+ sem  The chef's assistants were slicing the mushrooms for a pie. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0001275411923415959, 'NA': 0.9999768733978271} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+32 
+ syn  The club's rules had been peeling the sticker off the box. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998921155929565, 'Sy': 7.659684342797846e-05} 
+ sem  The club's rules had been peeling the sticker off the box. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997202754020691, 'NA': 0.0001448616967536509} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+33 
+ syn  The dark, underwater cave was explored by the divers. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999381303787231, 'Sy': 3.5179280530428514e-05} 
+ sem  The dark, underwater cave was explored by the divers. {'Se': 0, 'NA': 1} pred_sem: {'Se': 6.732341716997325e-05, 'NA': 0.9999761581420898} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+34 
+ syn  The dark, underwater cave was exploring by the divers. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00021382943668868393, 'Sy': 0.9999719858169556} 
+ sem  The dark, underwater cave was exploring by the divers. {'Se': 0, 'NA': 1} pred_sem: {'Se': 7.150467718020082e-05, 'NA': 0.9999765157699585} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+35 *
+ syn  The dark, underwater cave was paying attention to the divers. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999269247055054, 'Sy': 5.002030957257375e-05} 
+ sem  The dark, underwater cave was paying attention to the divers. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.0003794639487750828, 'NA': 0.9998956918716431} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+36 *
+ syn  The dusty tabletops were devouring with gusto. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.009295382536947727, 'Sy': 0.9958062171936035} 
+ sem  The dusty tabletops were devouring with gusto. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.1898406445980072, 'NA': 0.8421092629432678} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+37 
+ syn  The electrician had been disconnecting the machine's power source. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999425411224365, 'Sy': 4.85793971165549e-05} 
+ sem  The electrician had been disconnecting the machine's power source. {'Se': 0, 'NA': 1} pred_sem: {'Se': 8.914890349842608e-05, 'NA': 0.9999746084213257} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+38 
+ syn  The excited vacationers had been packing their suitcases when the hurricane hit. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998648166656494, 'Sy': 7.728254422545433e-05} 
+ sem  The excited vacationers had been packing their suitcases when the hurricane hit. {'Se': 0, 'NA': 1} pred_sem: {'Se': 5.750772834289819e-05, 'NA': 0.999987006187439} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+39 
+ syn  The final destination had been reached too late. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999216794967651, 'Sy': 5.226811481406912e-05} 
+ sem  The final destination had been reached too late. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0001293912500841543, 'NA': 0.999961256980896} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+40 
+ syn  The firewood had been chopping poorly. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00030726814293302596, 'Sy': 0.9999628067016602} 
+ sem  The firewood had been chopping poorly. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00031000140006653965, 'NA': 0.9998676776885986} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+41 
+ syn  The firewood had been ironing her dress. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997841715812683, 'Sy': 0.00026549442554824054} 
+ sem  The firewood had been ironing her dress. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9989707469940186, 'NA': 0.0005531918141059577} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+42 
+ syn  The fresh, warm bread was slicing by the baker into halves. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00026836205506697297, 'Sy': 0.9999721050262451} 
+ sem  The fresh, warm bread was slicing by the baker into halves. {'Se': 0, 'NA': 1} pred_sem: {'Se': 6.704625411657616e-05, 'NA': 0.9999723434448242} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+43 
+ syn  The gardener was watering the plants. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998478889465332, 'Sy': 0.00013393511471804231} 
+ sem  The gardener was watering the plants. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00014448522415477782, 'NA': 0.9999542236328125} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+44 
+ syn  The grimy pots and pans had been scrubbing the dishwashers. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00035501629463396966, 'Sy': 0.9999711513519287} 
+ sem  The grimy pots and pans had been scrubbing the dishwashers. {'Se': 0, 'NA': 1} pred_sem: {'Se': 5.1445993449306116e-05, 'NA': 0.9999808073043823} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+45 *
+ syn  The grimy pots and pans had been seizing without warning. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.002613743767142296, 'Sy': 0.9990798234939575} 
+ sem  The grimy pots and pans had been seizing without warning. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.015981152653694153, 'NA': 0.9970748424530029} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+46 
+ syn  The hearty meal was devouring by the kids. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00023826234973967075, 'Sy': 0.9999749660491943} 
+ sem  The hearty meal was devouring by the kids. {'Se': 0, 'NA': 1} pred_sem: {'Se': 7.872856804169714e-05, 'NA': 0.9999500513076782} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+47 
+ syn  The height of the bookcase was measuring by a carpenter. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0004503969685174525, 'Sy': 0.9999415874481201} 
+ sem  The height of the bookcase was measuring by a carpenter. {'Se': 0, 'NA': 1} pred_sem: {'Se': 6.0190115618752316e-05, 'NA': 0.9999771118164062} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+48 
+ syn  The movie was directing Steven Spielberg. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00047424703370779753, 'Sy': 0.9999464750289917} 
+ sem  The movie was directing Steven Spielberg. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00025866873329505324, 'NA': 0.9999167919158936} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+49 
+ syn  The movie was identifying rare fish for the divers. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998248219490051, 'Sy': 0.00012087903451174498} 
+ sem  The movie was identifying rare fish for the divers. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9996274709701538, 'NA': 0.00023130500630941242} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+50 
+ syn  The overgrown shrubs were trimmed by a gardener. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999432563781738, 'Sy': 3.5623248550109565e-05} 
+ sem  The overgrown shrubs were trimmed by a gardener. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00010591879981802776, 'NA': 0.9999451637268066} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+51 
+ syn  The phone bill had been paying his roommate. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0003654001047834754, 'Sy': 0.9999722242355347} 
+ sem  The phone bill had been paying his roommate. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00019804421754088253, 'NA': 0.9999390840530396} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+52 
+ syn  The popular amusement park is visited daily. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997907280921936, 'Sy': 0.00013363569451030344} 
+ sem  The popular amusement park is visited daily. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00017294417193625122, 'NA': 0.9999207258224487} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+53 
+ syn  The portrait of Napoleon had been painted by a Dutch artist. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998657703399658, 'Sy': 0.00010954462049994618} 
+ sem  The portrait of Napoleon had been painted by a Dutch artist. {'Se': 0, 'NA': 1} pred_sem: {'Se': 5.2632396545959637e-05, 'NA': 0.9999852180480957} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+54 
+ syn  The quality of Karla's work was evaluated frequently. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998360872268677, 'Sy': 9.27432847674936e-05} 
+ sem  The quality of Karla's work was evaluated frequently. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00019400067685637623, 'NA': 0.9999562501907349} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+55 
+ syn  The quality of Karla's work was snatching victory from the jaws of defeat. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.99972003698349, 'Sy': 0.00014285105862654746} 
+ sem  The quality of Karla's work was snatching victory from the jaws of defeat. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9994483590126038, 'NA': 0.0004387004009913653} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+56 
+ syn  The sealed envelope was photographing at the party. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998447895050049, 'Sy': 0.00013485357339959592} 
+ sem  The sealed envelope was photographing at the party. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9996044039726257, 'NA': 0.00025532220024615526} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+57 
+ syn  The secretary had been receiving flowers all day. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999146461486816, 'Sy': 0.00012561403855215758} 
+ sem  The secretary had been receiving flowers all day. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00016776405391283333, 'NA': 0.9999607801437378} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+58 
+ syn  The shopping fanatic had been spending all her money in Bloomingdales. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998214840888977, 'Sy': 0.00010412630945211276} 
+ sem  The shopping fanatic had been spending all her money in Bloomingdales. {'Se': 0, 'NA': 1} pred_sem: {'Se': 5.630747546092607e-05, 'NA': 0.9999892711639404} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+59 
+ syn  The simple coffin was burying the villagers. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0003055961860809475, 'Sy': 0.9999699592590332} 
+ sem  The simple coffin was burying the villagers. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00014851779269520193, 'NA': 0.999945878982544} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+60 
+ syn  The sin had been confessed on Sunday. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.999930739402771, 'Sy': 4.44833749497775e-05} 
+ sem  The sin had been confessed on Sunday. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00013513301382772624, 'NA': 0.9999756813049316} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+61 
+ syn  The sin had been planting doubt in her mind. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998528957366943, 'Sy': 0.0001544881088193506} 
+ sem  The sin had been planting doubt in her mind. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9995323419570923, 'NA': 0.0002810639562085271} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+62 
+ syn  The stolen artwork had been seized by the border police. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998983144760132, 'Sy': 4.4401582272257656e-05} 
+ sem  The stolen artwork had been seized by the border police. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0001582419208716601, 'NA': 0.9999487400054932} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+63 *
+ syn  The stolen artwork had been seizing without warning. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.003088241210207343, 'Sy': 0.998826801776886} 
+ sem  The stolen artwork had been seizing without warning. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.9995662569999695, 'NA': 0.0002916596713475883} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+64 
+ syn  The tarnished silverware was polishing by the butler. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00022390020603779703, 'Sy': 0.9999725818634033} 
+ sem  The tarnished silverware was polishing by the butler. {'Se': 0, 'NA': 1} pred_sem: {'Se': 9.709558798931539e-05, 'NA': 0.9999516010284424} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+65 
+ syn  The tragic mistake was borrowing in a hurry. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9995669722557068, 'Sy': 0.00035050607402808964} 
+ sem  The tragic mistake was borrowing in a hurry. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9996662139892578, 'NA': 0.00024163680791389197} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+66 *
+ syn  The unpleasant cough syrup was swallowing the boy. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0003352200728841126, 'Sy': 0.9999780654907227} 
+ sem  The unpleasant cough syrup was swallowing the boy. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.9993484616279602, 'NA': 0.0003359517431817949} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+67 
+ syn  The unpleasant cough syrup was witnessing in the dark. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997997879981995, 'Sy': 0.00012846245954278857} 
+ sem  The unpleasant cough syrup was witnessing in the dark. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997202754020691, 'NA': 0.00018717031343840063} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+68 
+ syn  The victim's body had been directing the police. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9721924066543579, 'Sy': 0.018833037465810776} 
+ sem  The victim's body had been directing the police. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997244477272034, 'NA': 0.00017798272892832756} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}
+69 
+ syn  The vocabulary list was memorized well. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.999870777130127, 'Sy': 9.94958754745312e-05} 
+ sem  The vocabulary list was memorized well. {'Se': 0, 'NA': 1} pred_sem: {'Se': 8.082677231868729e-05, 'NA': 0.9999802112579346} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+70 
+ syn  The vocabulary list was memorizing well. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00024882415891624987, 'Sy': 0.9999587535858154} 
+ sem  The vocabulary list was memorizing well. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0001486183755332604, 'NA': 0.999966025352478} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+71 
+ syn  The waiters had been serving the meal. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999175071716309, 'Sy': 6.684439722448587e-05} 
+ sem  The waiters had been serving the meal. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0001060383438016288, 'NA': 0.9999701976776123} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+72 
+ syn  The wheat crops had been harvested after the rain. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9999328851699829, 'Sy': 4.3443269532872364e-05} 
+ sem  The wheat crops had been harvested after the rain. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00010490798013051972, 'NA': 0.9999592304229736} final: pred {'NA': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'Se': 0, 'Sy': 0}
+73 
+ syn  The wheat crops had been harvesting by the local farmers. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0002403956459602341, 'Sy': 0.9999747276306152} 
+ sem  The wheat crops had been harvesting by the local farmers. {'Se': 0, 'NA': 1} pred_sem: {'Se': 8.089169568847865e-05, 'NA': 0.9999597072601318} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+74 *
+ syn  The winning lottery numbers had been announcing the TV news. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.9998993873596191, 'Sy': 0.00011066403385484591} 
+ sem  The winning lottery numbers had been announcing the TV news. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.9996471405029297, 'NA': 0.0002545764436945319} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+75 
+ syn  Thirty pounds of potatoes had been peeling by the cooks. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0003682508831843734, 'Sy': 0.9999327659606934} 
+ sem  Thirty pounds of potatoes had been peeling by the cooks. {'Se': 0, 'NA': 1} pred_sem: {'Se': 4.0531369450036436e-05, 'NA': 0.9999732971191406} final: pred {'NA': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'Se': 0, 'Sy': 1}
+76 
+ syn  Wendy's muddy car was approving the boy's request. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998637437820435, 'Sy': 0.00010175658098887652} 
+ sem  Wendy's muddy car was approving the boy's request. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.999647855758667, 'NA': 0.0002230681129731238} final: pred {'NA': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'Se': 1, 'Sy': 0}

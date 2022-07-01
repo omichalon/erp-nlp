@@ -1,0 +1,233 @@
+KO05_single_stream_preds.txt
+
+0: A faint light was concealing their identity.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.999614953994751, 'NA': 0.0005933890934102237, 'Sy': 2.942733487998339e-07}
+1*: A genetic mutation was discovering the scientists.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.9999707937240601, 'NA': 0.00021308839495759457, 'Sy': 3.557078898097643e-08}
+2: A new medication had been prescribing the physician.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.00025741622084751725, 'NA': 0.0007821389590390027, 'Sy': 0.9996378421783447}
+3: A tiny spy camera was concealing by the agent inside a flowerpot.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002946296881418675, 'NA': 0.001047327183187008, 'Sy': 0.9994829893112183}
+4: A wet snowball had been tossed in anger.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00017420265066903085, 'NA': 0.999980092048645, 'Sy': 0.0003130008408334106}
+5: An important lesson had been learning in space.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.000275464728474617, 'NA': 0.0008700269972905517, 'Sy': 0.9996064305305481}
+6: An urgent message had been measuring her heart rate.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.999991774559021, 'NA': 0.0003317065420560539, 'Sy': 3.685249438944993e-08}
+7: Billy's unruly hair was combed by his mother to one side.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 7.300525612663478e-05, 'NA': 0.9999943971633911, 'Sy': 0.00020758995378855616}
+8: Carrie's morning meeting was canceling as expected.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0003004885511472821, 'NA': 0.001104622962884605, 'Sy': 0.9994471669197083}
+9: Hathaway's gigantic fortune had been inherited by his daughters.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 8.536620589438826e-05, 'NA': 0.99998939037323, 'Sy': 0.0002540841815061867}
+10: Larry's note had been scribbling his wife.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002660607860889286, 'NA': 0.0008166143670678139, 'Sy': 0.9996367692947388}
+11: Ludwig von Beethoven was composing symphonies as a teenager.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00011173733219038695, 'NA': 0.9999861717224121, 'Sy': 0.00021328331786207855}
+12: Mark's wrinkly shirts were ironed by his mother.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 9.930459782481194e-05, 'NA': 0.9999914169311523, 'Sy': 0.00024444644805043936}
+13: Martin's tonsils had been removed at the hospital.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00013861987099517137, 'NA': 0.9999867677688599, 'Sy': 0.0002696554583963007}
+14: Poisonous fumes had been forging very well.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999910593032837, 'NA': 0.0003063368203584105, 'Sy': 3.968155226630188e-08}
+15: Several important topics were slicing with love.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999839067459106, 'NA': 0.0001905141252791509, 'Sy': 3.033080631098528e-08}
+16: Several spelling errors were reaching too late.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999902248382568, 'NA': 0.0003061231109313667, 'Sy': 3.812812821024636e-08}
+17: Stormy weather had been forecasted by the weatherman.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00011957452807109803, 'NA': 0.9999865293502808, 'Sy': 0.00028162001399323344}
+18: Stormy weather had been forecasting by the weatherman.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002753008739091456, 'NA': 0.000878446560818702, 'Sy': 0.9995855689048767}
+19*: Stormy weather had been packing for the trip.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.0006229490973055363, 'NA': 0.9998929500579834, 'Sy': 0.0003104160132352263}
+20: The FBI agents had been investigating the homicide case for weeks.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00013244499859865755, 'NA': 0.9999831914901733, 'Sy': 0.0002237395237898454}
+21: The Queen's 80th birthday was celebrating expensively.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.000269308831775561, 'NA': 0.0008445578278042376, 'Sy': 0.9996104836463928}
+22: The attendant had been pressing the buttons.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00013412362022791058, 'NA': 0.9999880790710449, 'Sy': 0.00025989883579313755}
+23: The baseball players had been tossing the ball around the infield.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00010400990868220106, 'NA': 0.9999898672103882, 'Sy': 0.00018963312322739512}
+24*: The bathroom floor had been mopped in the past.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00029691008967347443, 'NA': 0.0009374986402690411, 'Sy': 0.9995309114456177}
+25: The board of directors had been approving too many expensive projects.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 9.346472506877035e-05, 'NA': 0.9999887943267822, 'Sy': 0.00021292631572578102}
+26: The bubblegum had been canceling as expected.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999876022338867, 'NA': 0.00024171052791643888, 'Sy': 3.458968222957992e-08}
+27: The bubblegum had been chewed by the boy.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00010344187467126176, 'NA': 0.9999897480010986, 'Sy': 0.0002995303657371551}
+28: The cautious scuba divers were exploring the underwater cave.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00020112667698413134, 'NA': 0.9999680519104004, 'Sy': 0.00025221341638825834}
+29: The cheap products had been manufacturing a Belgian firm.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.00025763819576241076, 'NA': 0.0007843758794479072, 'Sy': 0.9996358156204224}
+30: The cheap products had been sketching again.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999924898147583, 'NA': 0.000379303382942453, 'Sy': 4.13850820280004e-08}
+31: The chef's assistants were slicing the mushrooms for a pie.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00013790845696348697, 'NA': 0.9999879598617554, 'Sy': 0.00019413928384892642}
+32: The club's rules had been peeling the sticker off the box.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999922513961792, 'NA': 0.0003210424038115889, 'Sy': 3.9108623894890115e-08}
+33: The dark, underwater cave was explored by the divers.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00011507055751280859, 'NA': 0.9999880790710449, 'Sy': 0.00024180758919101208}
+34: The dark, underwater cave was exploring by the divers.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.00026502175023779273, 'NA': 0.0008479162934236228, 'Sy': 0.9995988011360168}
+35: The dark, underwater cave was paying attention to the divers.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999873638153076, 'NA': 0.00026579381665214896, 'Sy': 3.318402619356675e-08}
+36*: The dusty tabletops were devouring with gusto.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.000256542261922732, 'NA': 0.0008058387320488691, 'Sy': 0.999619722366333}
+37: The electrician had been disconnecting the machine's power source.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 9.041634621098638e-05, 'NA': 0.9999911785125732, 'Sy': 0.0001741536398185417}
+38: The excited vacationers had been packing their suitcases when the hurricane hit.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00011386172991478816, 'NA': 0.999984860420227, 'Sy': 0.00015989120583981276}
+39: The final destination had been reached too late.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.0002630571834743023, 'NA': 0.9999583959579468, 'Sy': 0.0003649148275144398}
+40: The firewood had been chopping poorly.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.000267502706265077, 'NA': 0.0008157479460351169, 'Sy': 0.9996285438537598}
+41: The firewood had been ironing her dress.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999632835388184, 'NA': 0.00022999870998319238, 'Sy': 3.889979538485022e-08}
+42: The fresh, warm bread was slicing by the baker into halves.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.00026888735010288656, 'NA': 0.0008555728709325194, 'Sy': 0.9995978474617004}
+43: The gardener was watering the plants.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00012100957974325866, 'NA': 0.9999854564666748, 'Sy': 0.000382662023184821}
+44: The grimy pots and pans had been scrubbing the dishwashers.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002764271048363298, 'NA': 0.0009048726060427725, 'Sy': 0.9995651841163635}
+45*: The grimy pots and pans had been seizing without warning.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.0002790097496472299, 'NA': 0.0009448625496588647, 'Sy': 0.9995570778846741}
+46: The hearty meal was devouring by the kids.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002634220873005688, 'NA': 0.000833410129416734, 'Sy': 0.999619722366333}
+47: The height of the bookcase was measuring by a carpenter.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002908510505221784, 'NA': 0.0010022273054346442, 'Sy': 0.999518871307373}
+48: The movie was directing Steven Spielberg.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002633430121932179, 'NA': 0.0008112179348245263, 'Sy': 0.9996223449707031}
+49: The movie was identifying rare fish for the divers.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.999942421913147, 'NA': 0.0002894245262723416, 'Sy': 5.319182960761282e-08}
+50: The overgrown shrubs were trimmed by a gardener.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 9.721770038595423e-05, 'NA': 0.9999884366989136, 'Sy': 0.0003204775566700846}
+51: The phone bill had been paying his roommate.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.00026554681244306266, 'NA': 0.0008069443865679204, 'Sy': 0.9996269941329956}
+52: The popular amusement park is visited daily.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.0002290757984155789, 'NA': 0.9999719858169556, 'Sy': 0.00032284713233821094}
+53: The portrait of Napoleon had been painted by a Dutch artist.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00011314015864627436, 'NA': 0.9999895095825195, 'Sy': 0.0002883292327169329}
+54: The quality of Karla's work was evaluated frequently.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 8.595384133514017e-05, 'NA': 0.9999903440475464, 'Sy': 0.0003101291076745838}
+55: The quality of Karla's work was snatching victory from the jaws of defeat.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.999797523021698, 'NA': 0.00039345514960587025, 'Sy': 1.4603088516196294e-07}
+56: The sealed envelope was photographing at the party.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999909400939941, 'NA': 0.00032279451261274517, 'Sy': 3.7727140522747504e-08}
+57: The secretary had been receiving flowers all day.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00014599684800487012, 'NA': 0.9999862909317017, 'Sy': 0.0002582540037110448}
+58: The shopping fanatic had been spending all her money in Bloomingdales.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 8.045197319006547e-05, 'NA': 0.9999940395355225, 'Sy': 0.00017069658497348428}
+59: The simple coffin was burying the villagers.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002590053481981158, 'NA': 0.0007952095475047827, 'Sy': 0.9996342658996582}
+60: The sin had been confessed on Sunday.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.0003038591530639678, 'NA': 0.9999738931655884, 'Sy': 0.00027090756339021027}
+61: The sin had been planting doubt in her mind.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999256134033203, 'NA': 0.00021736444614361972, 'Sy': 6.194179036356218e-08}
+62: The stolen artwork had been seized by the border police.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00024248009140137583, 'NA': 0.9999785423278809, 'Sy': 0.0002358766068937257}
+63: The stolen artwork had been seizing without warning.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0003623248776420951, 'NA': 0.0021061371080577374, 'Sy': 0.9980549812316895}
+64: The tarnished silverware was polishing by the butler.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002698951866477728, 'NA': 0.0008708107634447515, 'Sy': 0.9995922446250916}
+65: The tragic mistake was borrowing in a hurry.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999916553497314, 'NA': 0.00034488478559069335, 'Sy': 4.5172946272487025e-08}
+66: The unpleasant cough syrup was swallowing the boy.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.00026952489861287177, 'NA': 0.0008540911367163062, 'Sy': 0.9996104836463928}
+67: The unpleasant cough syrup was witnessing in the dark.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999909400939941, 'NA': 0.00035288993967697024, 'Sy': 4.29957722758445e-08}
+68: The victim's body had been directing the police.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999773502349854, 'NA': 0.0002329320996068418, 'Sy': 3.239448886915852e-08}
+69: The vocabulary list was memorized well.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00016690374468453228, 'NA': 0.9999834299087524, 'Sy': 0.000365106068784371}
+70: The vocabulary list was memorizing well.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002595343685243279, 'NA': 0.000823905982542783, 'Sy': 0.9996252059936523}
+71: The waiters had been serving the meal.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00015853990043979138, 'NA': 0.9999849796295166, 'Sy': 0.0002635783748701215}
+72: The wheat crops had been harvested after the rain.
+	gold: {'Se': 0, 'NA': 1, 'Sy': 0}
+	pred: {'Se': 0.00014633164391852915, 'NA': 0.9999853372573853, 'Sy': 0.00021317170467227697}
+73: The wheat crops had been harvesting by the local farmers.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002813143655657768, 'NA': 0.0009108732920140028, 'Sy': 0.9995624423027039}
+74*: The winning lottery numbers had been announcing the TV news.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.9999815225601196, 'NA': 0.000174650878761895, 'Sy': 2.9619210195619416e-08}
+75: Thirty pounds of potatoes had been peeling by the cooks.
+	gold: {'Se': 0, 'NA': 0, 'Sy': 1}
+	pred: {'Se': 0.0002639467711560428, 'NA': 0.0008292532875202596, 'Sy': 0.9996148347854614}
+76: Wendy's muddy car was approving the boy's request.
+	gold: {'Se': 1, 'NA': 0, 'Sy': 0}
+	pred: {'Se': 0.9999827146530151, 'NA': 0.0002905256988015026, 'Sy': 3.390681513337768e-08}

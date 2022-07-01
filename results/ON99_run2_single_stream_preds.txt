@@ -1,0 +1,221 @@
+ON99_run2_single_stream_preds
+
+0: A new computer will painting for many years.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999866485595703, 'Sy': 6.7436121753416955e-06, 'Se': 0.0007887189276516438, 'NA': 0.0009650319698266685}
+1: After Jane’s accident, she found it difficult to boiling for several months.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999916553497314, 'Sy': 1.8449560229782946e-05, 'Se': 0.0007427732343785465, 'NA': 0.0006166917737573385}
+2: Alison used a hammer to break the small lock.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0012822039425373077, 'Sy': 0.0006720690289512277, 'Se': 0.0002101524150930345, 'NA': 0.9992819428443909}
+3: Alison used a hammer to breaking the small lock.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 9.269298857361719e-07, 'Sy': 0.9999740123748779, 'Se': 0.0012485315091907978, 'NA': 0.0015650688437744975}
+4*: At the aquarium, there are otters that fly and do tricks for the crowds.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 0.0022102820221334696, 'Sy': 0.0004958721110597253, 'Se': 0.00013562252570409328, 'NA': 0.9995280504226685}
+5*: At the aquarium, there are otters that swimming and do tricks for the crowds.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999634027481079, 'Sy': 1.028476526698796e-05, 'Se': 0.0011989413760602474, 'NA': 0.0017268246738240123}
+6: At the end of the day, the dog always waits in the driveway.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0024615430738776922, 'Sy': 0.0018191005801782012, 'Se': 0.00034120187046937644, 'NA': 0.9988251328468323}
+7: Billy bumped his bicycle, causing it to fall into the street.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.001138743944466114, 'Sy': 0.0002850242890417576, 'Se': 9.129058162216097e-05, 'NA': 0.999812662601471}
+8*: Billy bumped his bicycle, causing it to sneezing into the street.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.009690490551292896, 'Sy': 0.004342648200690746, 'Se': 0.8924151659011841, 'NA': 0.00012195471936138347}
+9: Bob’s rubber raft loves a rock, which punctured it.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 0.00015398570394609123, 'Sy': 0.00029647815972566605, 'Se': 0.9978106617927551, 'NA': 0.0005920070689171553}
+10: In case of a break-in, the alarm system will swear that there is an intruder.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 0.00013245193986222148, 'Sy': 0.0002465015568304807, 'Se': 0.9973773956298828, 'NA': 0.00016347375640179962}
+11: It was hard to get the infant to smiling for the photographer.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 6.518871487060096e-07, 'Sy': 0.9999830722808838, 'Se': 0.0008442951366305351, 'NA': 0.0013154390035197139}
+12: Mary knew that the food at the hotel would cost too much.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0018392964266240597, 'Sy': 0.000470394006697461, 'Se': 0.00013878227036911994, 'NA': 0.9997128844261169}
+13: Most physicians believe that the new drugs can preventing many forms of disease.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 7.052895512060786e-07, 'Sy': 0.9999839067459106, 'Se': 0.0009902705205604434, 'NA': 0.0011242588516324759}
+14: My grandfather’s habit of chasing geese might shock you, but he’s quite normal otherwise.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0018033604137599468, 'Sy': 0.0003085736243519932, 'Se': 9.569245594320819e-05, 'NA': 0.9998098015785217}
+15: One kangaroo at the San Diego Zoo would sometimes sitting all day.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 6.173526685415709e-07, 'Sy': 0.9999825954437256, 'Se': 0.0010213422356173396, 'NA': 0.0011084318393841386}
+16: One kangaroo at the San Diego Zoo would sometimes write all day.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 8.274108404293656e-05, 'Sy': 0.0002691109839361161, 'Se': 0.9988685846328735, 'NA': 0.00043523896601982415}
+17: Simple vegetable oil is used to fry the vegetables.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.001723074121400714, 'Sy': 0.00026806927053257823, 'Se': 0.00011817731137853116, 'NA': 0.9997372031211853}
+18: So many bugs live in the garden, they must buying a head of lettuce every minute.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999831914901733, 'Sy': 5.2478781071840785e-06, 'Se': 0.0009739673114381731, 'NA': 0.0005509179318323731}
+19: So many bugs live in the garden, they must eat a head of lettuce every minute.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0005235485732555389, 'Sy': 0.0005309921689331532, 'Se': 0.0008601852459833026, 'NA': 0.9961907863616943}
+20: The assistant was told that the alibi would considering an indictment.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999768733978271, 'Sy': 8.539160262444057e-06, 'Se': 0.0011671436950564384, 'NA': 0.0006051164818927646}
+21: The award winning play will run for several more months.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.001410420285537839, 'Sy': 0.0003988395619671792, 'Se': 0.00011750814155675471, 'NA': 0.9996788501739502}
+22: The baby’s teeth are so sore that the pacifier might cheat her too much.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 0.00017939312965609133, 'Sy': 0.0005591942463070154, 'Se': 0.9959198236465454, 'NA': 0.0009998301975429058}
+23: The beavers in the pond sometimes chewing the garden hose.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 7.578329359603231e-07, 'Sy': 0.9999791383743286, 'Se': 0.0010944189270958304, 'NA': 0.0013749086065217853}
+24: The booklet says that the contraceptive will fail if used too sparingly.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0015586294466629624, 'Sy': 0.00022589205764234066, 'Se': 7.56786103011109e-05, 'NA': 0.9998519420623779}
+25: The bull that escaped could send the wooden fence around the meadow.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 9.146441880147904e-05, 'Sy': 0.0003322138509247452, 'Se': 0.998665452003479, 'NA': 0.0004926181863993406}
+26: The bull that escaped could smash the wooden fence around the meadow.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0012699479702860117, 'Sy': 0.0003635430766735226, 'Se': 0.00010929993004538119, 'NA': 0.9996849298477173}
+27: The bull that escaped could smashing the wooden fence around the meadow.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 7.842684226488927e-07, 'Sy': 0.999984860420227, 'Se': 0.0009191398276016116, 'NA': 0.0011889672605320811}
+28*: The circus elephants get on their hind legs and chirp , which impresses the audience.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 0.9999793767929077, 'Sy': 9.689802027423866e-06, 'Se': 0.0012564187636598945, 'NA': 0.0008059703395701945}
+29: The colours in the sweater should not fading when the sweater is washed.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 6.478635441453662e-07, 'Sy': 0.9999850988388062, 'Se': 0.0008976441458798945, 'NA': 0.0011942025739699602}
+30: The fancy French clock doesn’t telling the time during power failures.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 7.257760898937704e-07, 'Sy': 0.9999821186065674, 'Se': 0.0010089301504194736, 'NA': 0.0013487834949046373}
+31: The farmhouse is so old that it scares the neighbours.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.004194935318082571, 'Sy': 0.0032795006409287453, 'Se': 0.000987916486337781, 'NA': 0.9971340894699097}
+32*: The farmhouse is so old that it scaring the neighbours.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999847412109375, 'Sy': 1.85276130650891e-05, 'Se': 0.0010509677231311798, 'NA': 0.0007195219513960183}
+33: The fingerprints on the gun could proving that the defendant is innocent.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 6.735513693456596e-07, 'Sy': 0.9999814033508301, 'Se': 0.0009489278309047222, 'NA': 0.0013399841263890266}
+34: The hidden door will open when the secret code is spoken.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0016766246408224106, 'Sy': 0.00024334745830856264, 'Se': 9.305573621531948e-05, 'NA': 0.9998027682304382}
+35: The hiker used his last match to start the fire.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0022346442565321922, 'Sy': 0.004532397259026766, 'Se': 0.0006555301370099187, 'NA': 0.997153639793396}
+36: The hiker used his last match to starting the fire.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 7.491711357943132e-07, 'Sy': 0.9999775886535645, 'Se': 0.0011942607816308737, 'NA': 0.0014329493278637528}
+37*: The hikers noticed that the boulder seemed to living precariously on the mountain.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 2.833847702277126e-06, 'Sy': 0.999991774559021, 'Se': 0.0005191442905925214, 'NA': 0.0006724928389303386}
+38: The lever on the basement wall does not lifting off the power supply.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999896287918091, 'Sy': 6.232824034668738e-06, 'Se': 0.0006483083707280457, 'NA': 0.000707956322003156}
+39: The local beers in Seattle will satisfy every beer drinker.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.001842539175413549, 'Sy': 0.0002908283204305917, 'Se': 0.00016345334006473422, 'NA': 0.9996724128723145}
+40: The movers didn’t think that the piano would cough as much as it did.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 9.9624325230252e-05, 'Sy': 0.00040873067337088287, 'Se': 0.9982274174690247, 'NA': 0.0006885322509333491}
+41: The new chemical additive may desire to lower the freezing point of water.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 0.00016221756231971085, 'Sy': 0.0002697256568353623, 'Se': 0.9974965453147888, 'NA': 0.0005090751801617444}
+42: The new crop of corn should feeding everyone in the state.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 7.253235594362195e-07, 'Sy': 0.9999798536300659, 'Se': 0.0011021007085219026, 'NA': 0.0012144905049353838}
+43: The new crop of corn should scrape everyone in the state.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 9.77389863692224e-05, 'Sy': 0.00044846604578197, 'Se': 0.9980804920196533, 'NA': 0.0006713593611493707}
+44: The new detergent is supposed to burn the floors with ease.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 7.87124372436665e-05, 'Sy': 0.0003133636200800538, 'Se': 0.9984618425369263, 'NA': 0.000642810424324125}
+45: The new fighter plane can fly faster than anyone had expected.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0016219676472246647, 'Sy': 0.0002507092140149325, 'Se': 0.00011805184476543218, 'NA': 0.9998231530189514}
+46: The new romance novel should sell in every store this year.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0015611277194693685, 'Sy': 0.0002713043650146574, 'Se': 9.682412928668782e-05, 'NA': 0.999764621257782}
+47: The new species of orchid will grow in tropical regions.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.001720462809316814, 'Sy': 0.0002570782380644232, 'Se': 9.397941903444007e-05, 'NA': 0.99981290102005}
+48: The new species of orchid will singing in tropical regions.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999908208847046, 'Sy': 5.2348568715387955e-06, 'Se': 0.0006987432134337723, 'NA': 0.0009445858304388821}
+49: The newly planted grass will growing quite a bit during the next year.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 6.663083240709966e-07, 'Sy': 0.9999828338623047, 'Se': 0.0010004257783293724, 'NA': 0.0010772726964205503}
+50: The pet cats will soon eat their evening meal.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0014824718236923218, 'Sy': 0.00032070284942165017, 'Se': 0.000107869716885034, 'NA': 0.9997658133506775}
+51*: The plumber said that the leaking water might seep out from behind the refrigerator.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0001060317808878608, 'Sy': 0.0007732618250884116, 'Se': 0.9967142343521118, 'NA': 0.0010963936801999807}
+52: The plumber said that the leaking water might speaking out from behind the refrigerator.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999728202819824, 'Sy': 6.645246230618795e-06, 'Se': 0.0012536585563793778, 'NA': 0.0007023597718216479}
+53: The puppy seems to like to sleep a lot during the day.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0011264918139204383, 'Sy': 0.00116333260666579, 'Se': 0.0006235422333702445, 'NA': 0.9984329342842102}
+54: The puppy seems to liking to sleep a lot during the day.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 2.875163590942975e-05, 'Sy': 0.9987265467643738, 'Se': 0.00862630270421505, 'NA': 0.0041089653968811035}
+55: The raging bull will whistling at the man.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999916553497314, 'Sy': 4.4573531340574846e-05, 'Se': 0.001274359063245356, 'NA': 0.000669871864374727}
+56: The red ants in Arizona will bite you if you are not careful.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0014597490662708879, 'Sy': 0.0004445875820238143, 'Se': 0.00014797865878790617, 'NA': 0.9995900988578796}
+57: The red ants in Arizona will biting you if you are not careful.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 6.30783063115814e-07, 'Sy': 0.9999839067459106, 'Se': 0.0008663552580401301, 'NA': 0.001166946953162551}
+58: The repairman thinks that the leaky tub might asking the tenants downstairs.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999862909317017, 'Sy': 8.115765012917109e-06, 'Se': 0.0010658978717401624, 'NA': 0.0005798217025585473}
+59: The repairman thinks that the leaky tub might bothering the tenants downstairs.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 6.356848416544381e-07, 'Sy': 0.9999834299087524, 'Se': 0.0009791422635316849, 'NA': 0.0012016927357763052}
+60: The sea lions can bask on the beach all day.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0015611143317073584, 'Sy': 0.000320241175359115, 'Se': 0.00016495955060236156, 'NA': 0.9996293783187866}
+61: The sea lions can editing on the beach all day.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999911785125732, 'Sy': 4.89999956698739e-06, 'Se': 0.0007962165982462466, 'NA': 0.0007197613595053554}
+62: The simulated accident might ignoring the children enough so that they will wear their bike helmets.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.999988317489624, 'Sy': 9.217841579811648e-06, 'Se': 0.0010079790372401476, 'NA': 0.000484374730149284}
+63: The skyscraper being built by the city would send out the sunlight.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 0.0001578118681209162, 'Sy': 0.0009013384114950895, 'Se': 0.9963802695274353, 'NA': 0.0016936298925429583}
+64: The strawberry beds might tempt rabbits and other animals.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.002169359242543578, 'Sy': 0.0004003494104836136, 'Se': 0.00019027503731194884, 'NA': 0.999646782875061}
+65: The teacher said our report must not last for more than ten minutes.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.0010396621655672789, 'Sy': 0.00032722161267884076, 'Se': 0.00011367284605512396, 'NA': 0.9997705817222595}
+66*: The tree in the backyard can’t sprout new buds in this weather.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 0, 'NA': 1}
+	pred: {'SS': 0.00012020545545965433, 'Sy': 0.000447862345026806, 'Se': 0.9978795051574707, 'NA': 0.0004002473142463714}
+67*: The tree in the backyard can’t sprouting new buds in this weather.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999779462814331, 'Sy': 6.325133654172532e-06, 'Se': 0.0012157405726611614, 'NA': 0.0007713505765423179}
+68: This expensive ointment will loathe all known forms of skin disease.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 8.426721615251154e-05, 'Sy': 0.0003401764843147248, 'Se': 0.9983299374580383, 'NA': 0.0006030845688655972}
+69: This expensive ointment will loathing all known forms of skin disease.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999744892120361, 'Sy': 7.278449174918933e-06, 'Se': 0.001146199880167842, 'NA': 0.00074406573548913}
+70: This rare herb can counting the pains in your back.
+	gold: {'SS': 1, 'Sy': 0, 'Se': 0, 'NA': 0}
+	pred: {'SS': 0.9999923706054688, 'Sy': 6.7323094299354125e-06, 'Se': 0.0007608903106302023, 'NA': 0.0005790203576907516}
+71*: This test of reasoning might hate to discriminate among students.
+	gold: {'SS': 0, 'Sy': 0, 'Se': 1, 'NA': 0}
+	pred: {'SS': 0.00013987315469421446, 'Sy': 0.00022163456014823169, 'Se': 0.038011334836483, 'NA': 0.8980273604393005}
+72: We hoped that the news of the award would cheering up the depressed student.
+	gold: {'SS': 0, 'Sy': 1, 'Se': 0, 'NA': 0}
+	pred: {'SS': 6.083439529902535e-07, 'Sy': 0.999984860420227, 'Se': 0.0008131941431201994, 'NA': 0.0011445219861343503}

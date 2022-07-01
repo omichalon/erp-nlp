@@ -1,0 +1,513 @@
+ON99_run1_dual_stream.txt
+
+Se NA Se
+Se NA Se
+0 
+ syn  After Jane’s accident, she found it difficult to boil for several months. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998362064361572, 'Sy': 6.315158680081367e-05} 
+ sem  After Jane’s accident, she found it difficult to boil for several months. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9932214021682739, 'NA': 0.008700885809957981} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+1 
+ syn  After Jane’s accident, she found it difficult to boiling for several months. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00024091146769933403, 'Sy': 0.9997782111167908} 
+ sem  After Jane’s accident, she found it difficult to boiling for several months. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9940620064735413, 'NA': 0.00585281802341342} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+2 
+ syn  Alison used a hammer to break the small lock. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9994981288909912, 'Sy': 0.00019320489082019776} 
+ sem  Alison used a hammer to break the small lock. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0005010687164030969, 'NA': 0.999151349067688} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+3 
+ syn  At the aquarium, there are otters that swimming and do tricks for the crowds. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00024253374431282282, 'Sy': 0.9998675584793091} 
+ sem  At the aquarium, there are otters that swimming and do tricks for the crowds. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00019286143651697785, 'NA': 0.9996824264526367} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Se NA Se
+NA NA NA
+4 *
+ syn  At the end of the day, the dog always peaks in the driveway. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997357726097107, 'Sy': 9.91707929642871e-05} 
+ sem  At the end of the day, the dog always peaks in the driveway. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.0007189092575572431, 'NA': 0.9988111257553101} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+5 
+ syn  Betsy went out to the orchard to melting apples for a pie. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00011547077156137675, 'Sy': 0.9998001456260681} 
+ sem  Betsy went out to the orchard to melting apples for a pie. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9989210367202759, 'NA': 0.0002486370212864131} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+6 
+ syn  Betsy went out to the orchard to picking apples for a pie. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00013068117550574243, 'Sy': 0.9998235106468201} 
+ sem  Betsy went out to the orchard to picking apples for a pie. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00017706544895190746, 'NA': 0.9994943141937256} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+SS Sy Se
+SS Sy Se
+7 
+ syn  Critics say that the rap songs might learning to lead young people astray. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00011167353659402579, 'Sy': 0.9998773336410522} 
+ sem  Critics say that the rap songs might learning to lead young people astray. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998602867126465, 'NA': 0.0001285747130168602} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Se NA Se
+NA NA NA
+8 *
+ syn  Fountain pens shouldn’t be used to dust since they were designed only for writing. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996894598007202, 'Sy': 0.00012118081940570846} 
+ sem  Fountain pens shouldn’t be used to dust since they were designed only for writing. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.0006575252045877278, 'NA': 0.9993497729301453} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+SS Sy Se
+Sy Sy NA
+9 *
+ syn  Fountain pens shouldn’t be used to dusting since they were designed only for writing. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00012797572708223015, 'Sy': 0.999847412109375} 
+ sem  Fountain pens shouldn’t be used to dusting since they were designed only for writing. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.00043975317385047674, 'NA': 0.9996123909950256} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+10 
+ syn  In case of a break-in, the alarm system will warn that there is an intruder. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996597766876221, 'Sy': 0.0001320446317549795} 
+ sem  In case of a break-in, the alarm system will warn that there is an intruder. {'Se': 0, 'NA': 1} pred_sem: {'Se': 9.009359200717881e-05, 'NA': 0.9998044371604919} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+11 
+ syn  In the nation’s landfills, chemicals of different sorts may hoping to create lethal substances. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00014819554053246975, 'Sy': 0.9998289346694946} 
+ sem  In the nation’s landfills, chemicals of different sorts may hoping to create lethal substances. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9996055960655212, 'NA': 0.00033880933187901974} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+12 
+ syn  Mary knew that the food at the hotel would costing too much. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 9.071083331946284e-05, 'Sy': 0.999864935874939} 
+ sem  Mary knew that the food at the hotel would costing too much. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0004940005601383746, 'NA': 0.9990598559379578} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Se NA Se
+Se NA Se
+13 
+ syn  Mary knew that the food at the hotel would fight too much. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997552037239075, 'Sy': 0.00010810077947098762} 
+ sem  Mary knew that the food at the hotel would fight too much. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9999053478240967, 'NA': 7.59910253691487e-05} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+14 
+ syn  Most physicians believe that the new drugs can study many forms of disease. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996758699417114, 'Sy': 7.229245238704607e-05} 
+ sem  Most physicians believe that the new drugs can study many forms of disease. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997574687004089, 'NA': 0.0002432541805319488} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+15 
+ syn  My brother bet that this spider could climbing faster than you could. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 9.253797907149419e-05, 'Sy': 0.999849796295166} 
+ sem  My brother bet that this spider could climbing faster than you could. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00015872549556661397, 'NA': 0.999789297580719} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Se NA Se
+Se NA Se
+16 
+ syn  My grandfather’s habit of chasing geese might stab you, but he’s quite normal otherwise. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998161196708679, 'Sy': 0.00012384534056764096} 
+ sem  My grandfather’s habit of chasing geese might stab you, but he’s quite normal otherwise. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.999866247177124, 'NA': 0.00013500887143891305} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+17 
+ syn  One kangaroo at the San Diego Zoo would sometimes sit all day. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997873902320862, 'Sy': 5.142842928762548e-05} 
+ sem  One kangaroo at the San Diego Zoo would sometimes sit all day. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00019880705804098397, 'NA': 0.9996424913406372} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+18 
+ syn  People hope that the sculpture will invent new forms of artistic expression. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9995266199111938, 'Sy': 0.00017388850392308086} 
+ sem  People hope that the sculpture will invent new forms of artistic expression. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997387528419495, 'NA': 0.0004161823308095336} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+19 
+ syn  The award winning play will run for several more months. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996086955070496, 'Sy': 0.00013418080925475806} 
+ sem  The award winning play will run for several more months. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003736556100193411, 'NA': 0.9996670484542847} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+20 
+ syn  The baby’s teeth are so sore that the pacifier might hurt her too much. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997444748878479, 'Sy': 9.138481982517987e-05} 
+ sem  The baby’s teeth are so sore that the pacifier might hurt her too much. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00020883210527244955, 'NA': 0.9997143149375916} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+21 
+ syn  The beavers in the pond sometimes chew the garden hose. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997443556785583, 'Sy': 0.00011594145325943828} 
+ sem  The beavers in the pond sometimes chew the garden hose. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003132853307761252, 'NA': 0.9995381832122803} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+22 
+ syn  The black widow spider likes to hide in dark places. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9995742440223694, 'Sy': 0.00018337478104513139} 
+ sem  The black widow spider likes to hide in dark places. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00038666525506414473, 'NA': 0.9995427131652832} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+23 
+ syn  The black widow spider likes to sighing in dark places. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 7.457272295141593e-05, 'Sy': 0.9998418092727661} 
+ sem  The black widow spider likes to sighing in dark places. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998441934585571, 'NA': 0.00011973459913861006} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+24 
+ syn  The cats won’t bake the food that Mary gives them. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.999795138835907, 'Sy': 8.540072303730994e-05} 
+ sem  The cats won’t bake the food that Mary gives them. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998435974121094, 'NA': 0.00017159020353574306} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+25 
+ syn  The cats won’t eat the food that Mary gives them. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998282194137573, 'Sy': 0.00011128011101391166} 
+ sem  The cats won’t eat the food that Mary gives them. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003302594705019146, 'NA': 0.9995829463005066} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+Se NA Se
+26 *
+ syn  The circus elephants get on their hind legs and stand , which impresses the audience. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998537302017212, 'Sy': 0.00011056689254473895} 
+ sem  The circus elephants get on their hind legs and stand , which impresses the audience. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.9985864162445068, 'NA': 0.0016800937009975314} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+SS Sy Se
+27 *
+ syn  The circus elephants get on their hind legs and standing , which impresses the audience. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00033011872437782586, 'Sy': 0.9998818635940552} 
+ sem  The circus elephants get on their hind legs and standing , which impresses the audience. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.9988498687744141, 'NA': 0.0022393877152353525} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Sy Sy NA
+Sy Sy NA
+28 
+ syn  The composer agreed that his music should enchanting the public. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 9.363215940538794e-05, 'Sy': 0.9998395442962646} 
+ sem  The composer agreed that his music should enchanting the public. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003260146768298, 'NA': 0.9995028972625732} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+SS Sy Se
+SS Sy Se
+29 
+ syn  The composer agreed that his music should questioning the public. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00010328888311050832, 'Sy': 0.9996588230133057} 
+ sem  The composer agreed that his music should questioning the public. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997822642326355, 'NA': 0.00017981302517000586} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+30 
+ syn  The couple’s newborn baby sneezing so much that they took her to the doctor. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.04238428920507431, 'Sy': 0.975393533706665} 
+ sem  The couple’s newborn baby sneezing so much that they took her to the doctor. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00014975083468016237, 'NA': 0.9998098015785217} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+NA NA NA
+NA NA NA
+31 
+ syn  The cowboy always gives his horse a chance to drink from the stream. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996960163116455, 'Sy': 0.00010785747872432694} 
+ sem  The cowboy always gives his horse a chance to drink from the stream. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0002146256301784888, 'NA': 0.999707043170929} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+32 
+ syn  The cowboy always gives his horse a chance to fish from the stream. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997044205665588, 'Sy': 0.00012409535702317953} 
+ sem  The cowboy always gives his horse a chance to fish from the stream. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998929500579834, 'NA': 0.00010172019392484799} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+33 
+ syn  The defendant’s account of the incident didn’t match the one given by the codefendant. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997667670249939, 'Sy': 0.00011704147618729621} 
+ sem  The defendant’s account of the incident didn’t match the one given by the codefendant. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003312499029561877, 'NA': 0.999530553817749} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+34 
+ syn  The defendant’s account of the incident didn’t pasting the one given by the codefendant. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00010079365165438503, 'Sy': 0.9998984336853027} 
+ sem  The defendant’s account of the incident didn’t pasting the one given by the codefendant. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.986229658126831, 'NA': 0.005161998327821493} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+35 
+ syn  The fancy French clock doesn’t asking the time during power failures. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 6.208630657056347e-05, 'Sy': 0.9998828172683716} 
+ sem  The fancy French clock doesn’t asking the time during power failures. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998629093170166, 'NA': 6.702196697006002e-05} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+36 
+ syn  The fancy French clock doesn’t tell the time during power failures. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997723698616028, 'Sy': 9.024053724715486e-05} 
+ sem  The fancy French clock doesn’t tell the time during power failures. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.04727231338620186, 'NA': 0.9072275757789612} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+SS Sy Se
+37 *
+ syn  The fancy French clock doesn’t telling the time during power failures. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 6.339202809613198e-05, 'Sy': 0.9998915195465088} 
+ sem  The fancy French clock doesn’t telling the time during power failures. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.93196040391922, 'NA': 0.027239812538027763} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+SS Sy Se
+SS Sy Se
+38 
+ syn  The fingerprints on the gun could judging that the defendant is innocent. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00011514069774420932, 'Sy': 0.9998342990875244} 
+ sem  The fingerprints on the gun could judging that the defendant is innocent. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997913241386414, 'NA': 0.00015779532259330153} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+39 
+ syn  The fingerprints on the gun could prove that the defendant is innocent. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996615648269653, 'Sy': 0.00013250132906250656} 
+ sem  The fingerprints on the gun could prove that the defendant is innocent. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0004735064576379955, 'NA': 0.9996225833892822} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+40 
+ syn  The general admits that the missile might explode before leaving the area. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997697472572327, 'Sy': 0.00010567154095042497} 
+ sem  The general admits that the missile might explode before leaving the area. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00035435118479654193, 'NA': 0.9996610879898071} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+41 
+ syn  The hiker used his last match to starting the fire. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0002032360207522288, 'Sy': 0.9998605251312256} 
+ sem  The hiker used his last match to starting the fire. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0004966427222825587, 'NA': 0.999529242515564} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Sy Sy NA
+Sy Sy NA
+42 
+ syn  The lever on the basement wall does not shutting off the power supply. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 8.348243136424571e-05, 'Sy': 0.9998942613601685} 
+ sem  The lever on the basement wall does not shutting off the power supply. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0007496128673665226, 'NA': 0.9995597004890442} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Se NA Se
+Se NA Se
+43 
+ syn  The local beers in Seattle will trip every beer drinker. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9995629191398621, 'Sy': 0.00010714727977756411} 
+ sem  The local beers in Seattle will trip every beer drinker. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.999727189540863, 'NA': 0.00024231855059042573} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+44 
+ syn  The new brand of toothpaste could begging to provide protection against disease. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00014148876653052866, 'Sy': 0.9998636245727539} 
+ sem  The new brand of toothpaste could begging to provide protection against disease. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998840093612671, 'NA': 0.00013422634219750762} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+SS Sy Se
+Sy Sy NA
+45 *
+ syn  The new chemical additive may desiring to lower the freezing point of water. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.000168235317687504, 'Sy': 0.9998774528503418} 
+ sem  The new chemical additive may desiring to lower the freezing point of water. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.312969833612442, 'NA': 0.5952953696250916} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+46 
+ syn  The new crop of corn should scrape everyone in the state. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9995676875114441, 'Sy': 0.000147378072142601} 
+ sem  The new crop of corn should scrape everyone in the state. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.99972003698349, 'NA': 0.0001792445546016097} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+47 
+ syn  The new fighter plane can flying faster than anyone had expected. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00016557304479647428, 'Sy': 0.9998691082000732} 
+ sem  The new fighter plane can flying faster than anyone had expected. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003606771642807871, 'NA': 0.9996629953384399} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+SS Sy Se
+SS Sy Se
+48 
+ syn  The new fighter plane can walking faster than anyone had expected. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.0001401599292876199, 'Sy': 0.9998798370361328} 
+ sem  The new fighter plane can walking faster than anyone had expected. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998586177825928, 'NA': 9.374285582453012e-05} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+49 
+ syn  The new romance novel should leak in every store this year. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996217489242554, 'Sy': 0.00010644349094945937} 
+ sem  The new romance novel should leak in every store this year. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9993488192558289, 'NA': 0.0009974545100703835} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+50 
+ syn  The new software package will gluing very elaborate pictures. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 9.632738510845229e-05, 'Sy': 0.9998437166213989} 
+ sem  The new software package will gluing very elaborate pictures. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9557005167007446, 'NA': 0.0641230121254921} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+51 
+ syn  The new species of orchid will grow in tropical regions. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998300075531006, 'Sy': 7.695690874243155e-05} 
+ sem  The new species of orchid will grow in tropical regions. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00028330422355793417, 'NA': 0.9997631907463074} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+52 
+ syn  The newly planted grass will grow quite a bit during the next year. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997902512550354, 'Sy': 8.297005842905492e-05} 
+ sem  The newly planted grass will grow quite a bit during the next year. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003231584560126066, 'NA': 0.9995952248573303} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+53 
+ syn  The newly planted grass will growing quite a bit during the next year. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 9.061469609150663e-05, 'Sy': 0.9998811483383179} 
+ sem  The newly planted grass will growing quite a bit during the next year. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003689248114824295, 'NA': 0.9995406866073608} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Se NA Se
+Se NA Se
+54 
+ syn  The newly planted grass will swim quite a bit during the next year. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998385906219482, 'Sy': 6.962135375943035e-05} 
+ sem  The newly planted grass will swim quite a bit during the next year. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998453855514526, 'NA': 0.00014869151345919818} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+55 
+ syn  The portrait of Uncle Henry doesn’t sing like him. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.999666690826416, 'Sy': 0.00011945372534682974} 
+ sem  The portrait of Uncle Henry doesn’t sing like him. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9978591799736023, 'NA': 0.001346257166005671} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+56 
+ syn  The portrait of Uncle Henry doesn’t singing like him. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 7.67420424381271e-05, 'Sy': 0.9998292922973633} 
+ sem  The portrait of Uncle Henry doesn’t singing like him. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9975747466087341, 'NA': 0.0016838471638038754} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+57 
+ syn  The powerful magnet will learn defective parts from the assembly line. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997912049293518, 'Sy': 8.607152994954959e-05} 
+ sem  The powerful magnet will learn defective parts from the assembly line. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998914003372192, 'NA': 0.00019237675587646663} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+58 
+ syn  The publisher hoped that the textbook would hearing students with a variety of interests. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 8.413681644015014e-05, 'Sy': 0.9998536109924316} 
+ sem  The publisher hoped that the textbook would hearing students with a variety of interests. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9999122619628906, 'NA': 0.0002126159379258752} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+SS Sy Se
+59 *
+ syn  The puppy seems to liking to sleep a lot during the day. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00014692905824631453, 'Sy': 0.9998983144760132} 
+ sem  The puppy seems to liking to sleep a lot during the day. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.9989314675331116, 'NA': 0.0005209138034842908} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Sy Sy NA
+Sy Sy NA
+60 
+ syn  The raging bull will charging at the man. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00012379916734062135, 'Sy': 0.999842643737793} 
+ sem  The raging bull will charging at the man. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0003006306942552328, 'NA': 0.9995225667953491} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+NA NA NA
+NA NA NA
+61 
+ syn  The red ants in Arizona will bite you if you are not careful. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998053908348083, 'Sy': 9.062341996468604e-05} 
+ sem  The red ants in Arizona will bite you if you are not careful. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0002221482718596235, 'NA': 0.9996724128723145} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+62 
+ syn  The repairman thinks that the leaky tub might asking the tenants downstairs. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 9.452911763219163e-05, 'Sy': 0.9997846484184265} 
+ sem  The repairman thinks that the leaky tub might asking the tenants downstairs. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.999823272228241, 'NA': 0.00011858324432978407} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+63 
+ syn  The repairman thinks that the leaky tub might bothering the tenants downstairs. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 9.594117000233382e-05, 'Sy': 0.9998142123222351} 
+ sem  The repairman thinks that the leaky tub might bothering the tenants downstairs. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00011555173114174977, 'NA': 0.9997441172599792} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Se NA Se
+Se NA Se
+64 
+ syn  The security camera at the bank will now trip photographs of everyone. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.999805748462677, 'Sy': 0.00010248987382510677} 
+ sem  The security camera at the bank will now trip photographs of everyone. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9997311234474182, 'NA': 0.0002457239315845072} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+65 
+ syn  The teacher said our report must not cry for more than ten minutes. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998307228088379, 'Sy': 5.197232894715853e-05} 
+ sem  The teacher said our report must not cry for more than ten minutes. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.999825656414032, 'NA': 0.00013413590204436332} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+NA NA NA
+NA NA NA
+66 
+ syn  These grapevines don’t grow well in sandy regions. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9997312426567078, 'Sy': 0.0001272339723072946} 
+ sem  These grapevines don’t grow well in sandy regions. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0004953042953275144, 'NA': 0.9997398257255554} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+67 
+ syn  These grapevines don’t growing well in sandy regions. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 8.651036478113383e-05, 'Sy': 0.9997639060020447} 
+ sem  These grapevines don’t growing well in sandy regions. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0004804604686796665, 'NA': 0.999760091304779} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+Se NA Se
+Se NA Se
+68 
+ syn  This test of reasoning might hate to discriminate among students. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.999734103679657, 'Sy': 8.908814925234765e-05} 
+ sem  This test of reasoning might hate to discriminate among students. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.999229907989502, 'NA': 0.0006399211124517024} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
+SS Sy Se
+SS Sy Se
+69 
+ syn  This test of reasoning might hating to discriminate among students. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 0.00010961869702441618, 'Sy': 0.9998346567153931} 
+ sem  This test of reasoning might hating to discriminate among students. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9994215965270996, 'NA': 0.0004629900213330984} final: pred {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0} VS gold {'NA': 0, 'SS': 1, 'Se': 0, 'Sy': 0}
+
+
+Sy Sy NA
+Sy Sy NA
+70 
+ syn  We hoped that the news of the award would cheering up the depressed student. {'NA': 0, 'Sy': 1} pred_syn: {'NA': 7.72028579376638e-05, 'Sy': 0.9997884631156921} 
+ sem  We hoped that the news of the award would cheering up the depressed student. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.0002034735371125862, 'NA': 0.9997616410255432} final: pred {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1} VS gold {'NA': 0, 'SS': 0, 'Se': 0, 'Sy': 1}
+
+
+NA NA NA
+NA NA NA
+71 
+ syn  Where the road forks , we couldn’t figure out which way to go. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9996656179428101, 'Sy': 0.0001519763609394431} 
+ sem  Where the road forks , we couldn’t figure out which way to go. {'Se': 0, 'NA': 1} pred_sem: {'Se': 0.00028889605891890824, 'NA': 0.9996401071548462} final: pred {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0} VS gold {'NA': 1, 'SS': 0, 'Se': 0, 'Sy': 0}
+
+
+Se NA Se
+Se NA Se
+72 
+ syn  William thought that he would dig right in with the crowd at the reception. {'NA': 1, 'Sy': 0} pred_syn: {'NA': 0.9998428821563721, 'Sy': 7.604400889249519e-05} 
+ sem  William thought that he would dig right in with the crowd at the reception. {'Se': 1, 'NA': 0} pred_sem: {'Se': 0.9998670816421509, 'NA': 0.0002676716248970479} final: pred {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0} VS gold {'NA': 0, 'SS': 0, 'Se': 1, 'Sy': 0}
+
+
